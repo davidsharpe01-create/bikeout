@@ -6,7 +6,7 @@ Recreation of https://bikeout.cc in a separate private repository:
 ## Deployment plan
 
 - `main`: production branch.
-- `rebuild-bikeout`: recreation work and Cloudflare Pages previews.
+- `bikeout`: recreation work and Cloudflare Pages previews.
 - Cloudflare Pages project: `bikeout`, connected to this GitHub repository.
 - Preserve the existing bikeout.cc hosting and DNS until the recreation is approved.
 - Do not attach bikeout.cc as a custom domain during recreation.
@@ -29,11 +29,11 @@ Once the private GitHub repository exists and access is available:
 
 ```sh
 git push -u origin main
-git push -u origin rebuild-bikeout
+git push -u origin bikeout
 ```
 
 Then connect the repository to a new Cloudflare Pages project named `bikeout`,
-select `main` for production, and enable previews for `rebuild-bikeout`.
+select `main` for production, and enable previews for `bikeout`.
 Determine the build command and output directory from the eventual implementation.
 
 BikeOut work belongs here, not in the separate Out Velo checkout.

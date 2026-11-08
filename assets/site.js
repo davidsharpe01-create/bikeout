@@ -22,7 +22,7 @@ if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches && 'Intersect
    entry.target.addEventListener('animationend', () => entry.target.classList.remove('animated'), {once:true});
    observer.unobserve(entry.target);
   });
- }, {rootMargin:'0px 0px -5% 0px', threshold:0});
+ }, {rootMargin:'0px 0px -15% 0px', threshold:0});
  slideSections.forEach(section => {
   section.classList.add('slide-pending');
   observer.observe(section);

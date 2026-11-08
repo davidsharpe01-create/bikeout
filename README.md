@@ -11,7 +11,10 @@ Branch preview deployments are disabled.
 
 Cloudflare account: `4216a52a7c968beaccdb6a8e57569e2d`.
 The project currently uses static files at the repository root, with no build command.
-No website implementation has been added yet.
+The homepage and `/policies/` are static recreations of the owner-supplied saved pages.
+Images, styles and Poppins fonts are hosted locally; FAQs use a small local script.
+The saved map tiles link to OpenStreetMap. The hero uses the supplied group-photo
+version because the original background asset was not in the export.
 
 The existing bikeout.cc hosting and DNS remain unchanged. Do not attach the
 custom domain or switch DNS until the recreation is ready.

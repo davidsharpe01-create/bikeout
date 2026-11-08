@@ -18,3 +18,4 @@ img.section-photo-crop{display:block;width:100%!important;height:auto!important;
 /* Keep the complete vertical photo composition; narrower screens crop the sides. */
 .poster-photo{height:clamp(520px,78svh,900px)}.poster-photo>img{display:block;width:100%;height:100%;object-fit:cover;object-position:center center}@media(max-width:600px){.poster-photo{height:78svh;min-height:520px}.poster-photo h1{bottom:4%;font-size:20vw!important}}
 .poster-photo{height:max(56.2528vw,min(78svh,900px))}
+.poster-photo>img{object-position:47% center}

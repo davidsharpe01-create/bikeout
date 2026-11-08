@@ -12,3 +12,5 @@
 @media(min-width:961px){.poster-photo{height:min(56.25vw,calc(100svh - 145px))}.poster-photo img{height:100%;object-fit:cover;object-position:center bottom}.poster-photo h1{font-size:min(17vw,24svh)!important;bottom:2%}}
 .simplified-section-heading>h2:first-child{margin-top:0!important}.simplified-section-heading>h2{margin-bottom:28px!important}
 .poster-photo picture{display:block;width:100%;height:100%}@media(max-width:600px){.poster-photo picture img{aspect-ratio:3/4;object-fit:cover}.poster-photo h1{bottom:30%;font-size:20vw!important}}
+#wp-block-themeisle-blocks-advanced-column-311d4b3f>h2{margin-bottom:10px!important}.intro-festival-date{font-size:20px;margin:0 0 30px}@media(max-width:600px){.poster-photo{height:90svh;min-height:620px}.poster-photo picture img{width:100%;height:100%;aspect-ratio:auto;object-fit:cover;object-position:center top}.poster-photo h1{bottom:18%;font-size:20vw!important}.intro-festival-date{font-size:17px}}
+@media(max-width:600px){.poster-photo picture{background-image:url('/assets/BikeOut-Gathering-portrait.png');background-size:100% 100%;background-position:center top}.poster-photo picture img{height:auto;object-fit:initial}}

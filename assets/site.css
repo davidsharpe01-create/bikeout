@@ -4,3 +4,4 @@
 .event-category{text-align:center}.event-icon{display:block;width:112px;height:112px;margin:0 auto 24px;color:#fff}.event-category p{font-size:20px;font-weight:700}@media(max-width:600px){.event-icon{width:72px;height:72px;margin-bottom:16px}.event-category p{font-size:16px}}
 @keyframes bikeout-section-enter{from{opacity:0;transform:translate3d(0,120px,0)}to{opacity:1;transform:translate3d(0,0,0)}}
 @media (prefers-reduced-motion:no-preference){main .slideInUp.animated{animation-name:bikeout-section-enter;animation-duration:1.4s;animation-timing-function:cubic-bezier(.22,.61,.36,1)}}
+#wp-block-themeisle-blocks-advanced-columns-e1ca32e1{background-position:center 35%}

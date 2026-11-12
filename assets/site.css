@@ -20,3 +20,4 @@ img.section-photo-crop{display:block;width:100%!important;height:auto!important;
 .poster-photo{height:max(56.2528vw,min(78svh,900px))}
 .poster-photo>img{object-position:47% center}
 .club-partners-three{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px}.club-partners-three>.wp-block-themeisle-blocks-advanced-column{width:100%!important;flex-basis:auto!important}@media(max-width:600px){.club-partners-three{grid-template-columns:1fr}}
+.club-partners-second-row{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr));gap:30px}.club-partners-second-row>.wp-block-themeisle-blocks-advanced-column{width:100%!important;flex-basis:auto!important}@media(max-width:960px) and (min-width:601px){.club-partners-second-row{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:600px){.club-partners-second-row{grid-template-columns:1fr}}

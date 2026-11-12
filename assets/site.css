@@ -19,3 +19,4 @@ img.section-photo-crop{display:block;width:100%!important;height:auto!important;
 .poster-photo{height:clamp(520px,78svh,900px)}.poster-photo>img{display:block;width:100%;height:100%;object-fit:cover;object-position:center center}@media(max-width:600px){.poster-photo{height:78svh;min-height:520px}.poster-photo h1{bottom:4%;font-size:20vw!important}}
 .poster-photo{height:max(56.2528vw,min(78svh,900px))}
 .poster-photo>img{object-position:47% center}
+.club-partners-three{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px}.club-partners-three>.wp-block-themeisle-blocks-advanced-column{width:100%!important;flex-basis:auto!important}@media(max-width:600px){.club-partners-three{grid-template-columns:1fr}}
